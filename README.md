@@ -1,2 +1,3 @@
-# maui-smart-pdf-viewer-examples
-This sample demonstrates how to use the Syncfusion .NET MAUI Smart PDF Viewer to load, view, navigate, and interact with PDF documents in a .NET MAUI application.
+# .NET MAUI Smart PDF Viewer Examples
+
+This repository contains implementation examples for the [.NET MAUI Smart PDF Viewer](https://www.syncfusion.com/pdf-viewer-sdk/ai-powered-net-maui-pdf-viewer) - an AI-enhanced PDF component that extends conventional PDF viewing capabilities with intelligent document processing. The component integrates advanced AI technologies to deliver Document Summarization with interactive Q&A, Smart Redaction for sensitive content protection, and Smart Fill for automated form completion, providing developers with tools to create more efficient and secure document management solutions.

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.SmartPdfViewer;assembly=Syncfusion.Maui.SmartPdfViewer"
+             xmlns:local="clr-namespace:GettingStarted"
+             x:Class="GettingStarted.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:PdfViewerViewModel x:Name="viewModel" />
+    </ContentPage.BindingContext>
+
+    <syncfusion:SfSmartPdfViewer x:Name="pdfViewer" 
+                                 DocumentSource="{Binding PdfDocumentStream}">
+    </syncfusion:SfSmartPdfViewer>
+
+</ContentPage>
